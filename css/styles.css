@@ -168,8 +168,10 @@ text-transform: uppercase;
 }
 /*Advantage*/
 .advantage{
-    background-color: var(--secondary-background-color);
+    background-color: var(--primary-background-color);
     color: var(--primary-text-color);
+    padding-top: 94px;
+    
 }
 .advantage-list{
     display: flex;
@@ -192,7 +194,6 @@ text-transform: uppercase;
 .about-heading, .team-title{
 color: var(--secondary-text-color);
 
-margin-top: 94px;
 margin-bottom: 50px;
 text-align: center;
 
@@ -207,15 +208,15 @@ justify-content: space-between;
 }
 /*Team*/
 .team{
-    background-color: var(--quaternary-background-color);
+    background-color: var(--secondary-background-color);
 
     text-align: center;
 }
 .team .list{
 display: flex;
-justify-content: space-between;
+margin-left: 30px;
 }
-.team-section .item {
+.team .item {
     padding-bottom: 30px;
     border-radius: 0px 0px 4px 4px;
 }
@@ -229,11 +230,17 @@ justify-content: space-between;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
-.team img{
-    margin-bottom: 30px;
+.team .name{
+    margin-top: 30px ;
+    margin-bottom: 10px;
+}
+.team .item{
+    background-color: var(--primary-background-color);
 }
 .team-member-occupation{
 color: var(--primary-text-color);
+
+margin-bottom: 30px;
 
 font-weight: 400;
 font-size: 16px;
@@ -259,11 +266,11 @@ letter-spacing: 0.03em;
 }
 
 .footer-address {
-    margin-bottom: 9px;
-
     font-style: normal;
 }
-
+.footer-list{
+    margin-bottom: 9px;
+}
 .footer-logo,
 .footer-address {
     color: #ffffff;
@@ -282,7 +289,7 @@ font-style: normal;
 
 /*Портфолио*/
 .portfolio-hero{
-background-color: var(--secondary-background-color);
+background-color: var(--primary-background-color);
 }
 /*Фильтры*/
 .portfolio-btn {
@@ -343,7 +350,7 @@ background-color: var(--secondary-background-color);
 .project-card {
     margin-left: 30px;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     flex-basis: calc((100% - 90px) / 3);
     background-color: #FFFFFF;
 }
