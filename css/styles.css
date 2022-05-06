@@ -170,12 +170,11 @@ text-transform: uppercase;
 .advantage{
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
-    padding-top: 94px;
     
 }
 .advantage-list{
     display: flex;
-    justify-content: space-between;
+    
 
     font-size: 14px;
     line-height: 1.7;
