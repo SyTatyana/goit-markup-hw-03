@@ -51,10 +51,6 @@ ul {
     margin: 0 auto;
 }
 
-section {
-     padding-bottom: 94px;
-}
-
 /*Header*/
 .header{
     border-bottom: 1px solid #ECECEC;
@@ -127,7 +123,6 @@ section {
 ul{
     list-style: none;
 }
-
 /*Hero*/
 .hero-section{
 background-color: var(--tertiary-background-color);
@@ -167,10 +162,11 @@ text-transform: uppercase;
     letter-spacing: 0.06em;
 }
 /*Advantage*/
-.advantage{
+.advantage-section{
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
-    
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .advantage-list{
     display: flex;
@@ -184,7 +180,6 @@ text-transform: uppercase;
 }
 .advantage-title{
     margin-bottom: 10px;
-    padding-top: 94px;
 
     color: var(--secondary-text-color);
     font-weight: 700;
@@ -194,6 +189,9 @@ text-transform: uppercase;
     text-transform: uppercase;
 }
 /*About*/
+.about{
+    padding-bottom: 94px;
+}
 .about-heading, .team-title{
 color: var(--secondary-text-color);
 
@@ -214,6 +212,8 @@ justify-content: space-between;
     background-color: var(--primary-background-color);
 
     text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team .list{
 display: flex;
@@ -290,7 +290,10 @@ font-style: normal;
 /*Портфолио*/
 .portfolio-hero{
 background-color: var(--primary-background-color);
+padding-top: 94px;
+padding-bottom: 94px;
 }
+
 /*Фильтры*/
 .portfolio-btn {
     border: none;
@@ -309,7 +312,6 @@ background-color: var(--primary-background-color);
     display: flex;
     justify-content: center;
     margin-bottom: 56px;
-    margin-top: 94px;
 }
 .filter-button:not(:last-child) {
     margin-right: 8px;
@@ -341,7 +343,7 @@ background-color: var(--primary-background-color);
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
-    margin-top: -30px;
+    margin-bottom: -30px;
 }
 
 .project-cards p{
@@ -355,14 +357,13 @@ background-color: var(--primary-background-color);
     flex-basis: calc((100% - 90px) / 3);
     background-color: #FFFFFF;
 }
-.project-card:nth-child(n+6){
-    margin-bottom: 0;
-}
+
 .card-description {
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     padding: 20px 24px;
+    margin-bottom: 20px;
 }
 .project-name{
     color: var(--secondary-text-color);
